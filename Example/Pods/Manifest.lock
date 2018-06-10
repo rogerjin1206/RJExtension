@@ -1,0 +1,16 @@
+PODS:
+  - RJExtension (1.0.0)
+
+DEPENDENCIES:
+  - RJExtension (from `../RJExtension/`)
+
+EXTERNAL SOURCES:
+  RJExtension:
+    :path: "../RJExtension/"
+
+SPEC CHECKSUMS:
+  RJExtension: 3769427f909d4ee272159aee785080fa1fd5a8f2
+
+PODFILE CHECKSUM: acdf8a5bdd751f7a2f39e210a8499006b6fc8e25
+
+COCOAPODS: 1.5.2
