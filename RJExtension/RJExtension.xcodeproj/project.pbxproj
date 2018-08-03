@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5675023921146A800005D750 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023821146A800005D750 /* UITableView.swift */; };
+		5675023B21146A880005D750 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023A21146A880005D750 /* UICollectionView.swift */; };
+		5675023D21146A9A0005D750 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023C21146A9A0005D750 /* UIColor.swift */; };
+		5675023F21146B000005D750 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023E21146B000005D750 /* UIView.swift */; };
 		DBB79B0920CD052E00D77F79 /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB79B0720CD052E00D77F79 /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBB79B1020CD053F00D77F79 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB79B0F20CD053F00D77F79 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5675023821146A800005D750 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		5675023A21146A880005D750 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		5675023C21146A9A0005D750 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5675023E21146B000005D750 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		DBB79B0420CD052E00D77F79 /* RJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB79B0720CD052E00D77F79 /* RJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJExtension.h; sourceTree = "<group>"; };
 		DBB79B0820CD052E00D77F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +58,10 @@
 			children = (
 				DBB79B0720CD052E00D77F79 /* RJExtension.h */,
 				DBB79B0F20CD053F00D77F79 /* Common.swift */,
+				5675023821146A800005D750 /* UITableView.swift */,
+				5675023A21146A880005D750 /* UICollectionView.swift */,
+				5675023C21146A9A0005D750 /* UIColor.swift */,
+				5675023E21146B000005D750 /* UIView.swift */,
 				DBB79B0820CD052E00D77F79 /* Info.plist */,
 			);
 			path = RJExtension;
@@ -134,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5675023F21146B000005D750 /* UIView.swift in Sources */,
+				5675023B21146A880005D750 /* UICollectionView.swift in Sources */,
+				5675023D21146A9A0005D750 /* UIColor.swift in Sources */,
 				DBB79B1020CD053F00D77F79 /* Common.swift in Sources */,
+				5675023921146A800005D750 /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
