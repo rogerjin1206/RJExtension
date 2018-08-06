@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIAlertController {
     
@@ -15,6 +16,7 @@ extension UIAlertController {
         let alertVC = UIAlertController(title:title, message: nil, preferredStyle: .alert)
         let done = UIAlertAction(title:"OK", style: .default, handler: nil)
         
+        alertVC.addAction(done)
         vc.present(alertVC, animated: true, completion: nil)
         
     }
