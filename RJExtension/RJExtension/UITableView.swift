@@ -8,33 +8,10 @@
 
 import Foundation
 
-class BasicTableViewCell : UITableViewCell {
-    
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        selectionStyle = .none
-        initial()
-        
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    public func initial() {
-        
-    }
-    
-}
-
 extension UITableView {
     
-    
-        
     public func registerCell<T: UITableViewCell>(ofType type: T.Type) {
-        register(T.self, forCellReuseIdentifier: T.className)
+        register(T.self, forCellReuseIdentifier: String(describing: T.self))
         
     }
     
