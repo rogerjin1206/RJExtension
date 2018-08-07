@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02389EA02EC7FF2FA8AA3EDB358F6CF9 /* RJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AD9DBE851D406231D36645F1334B1 /* RJExtension-dummy.m */; };
-		71EA4EB88D93967D56014DC4D481CFC0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3751079198F9A642ED23284EAAA14E /* Common.swift */; };
+		13852F390120DD6981B662A5609E3786 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E661B925CDE1B49FB3927DA9BD9012 /* UIDevice.swift */; };
+		33305C022DE6AA801B6AD8039F2BBAFD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA80D1DF2C8E80C894D264B0C07AE /* Common.swift */; };
+		802EA65DA4B5A511E2182AB6FC1AF875 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B539D43172F553A148BB5AC583775 /* Info.plist */; };
 		8550D0D200623395DF2061E7AC0B92AD /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89251D52D0D816CA024D2E3B9B45B9F2 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BEBB03642D07BA2B2DC0A9F19CB174 /* UICollectionView.swift */; };
 		8DAD9B9EE500A045B5BCA2BEAA11DBCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C5AF663D3A99B974D9533393DEAB05C3 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = DC023C3BAC37BB51E442C86F13B66E48 /* Info.plist */; };
-		DFD3446C19F3A60BCD90834F684845F7 /* RJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E691331EB184B5DFA0B751308B9D23EA /* RJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		917A92B9EB0F5C847F8C7F0B5F8610EB /* RJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64611BC5FF535D498CAA748232EF1006 /* RJExtension-dummy.m */; };
+		9D6CAB231E89473C026B4B2E076FD3B7 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA99D8CD9F1D534D16F0D2DA4E9F6E0 /* UIAlertController.swift */; };
+		A8F485FBAC5BEAC9B528AF37DCA90264 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11547565A5DB3D72A075FFC3CDE8395 /* UIColor.swift */; };
+		D06A00E097118792FB8AD27AB55B516E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4FB0D0F3E28CD500553F5225D6DEE6 /* UIView.swift */; };
+		DDCBAE8AB8C796BB7BD20A2B65DEC79D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AA75A8C7F046700E52AE26D062C5E /* UIViewController.swift */; };
+		DFD3446C19F3A60BCD90834F684845F7 /* RJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80AC9D0428CF990C1476D3ACCFD6084 /* RJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2929AD14DC493C3566548C394FF6684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F2749FA69F7D1D459DCB496FDC7D529F /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB66BD121BB0EDFF6929A2BAD6939FAB /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2749FA69F7D1D459DCB496FDC7D529F /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D788FE505043A20208D9C1DB1C4EC0 /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F69305AC56CF872CC5AC1249B4C3A7F5 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
+		FA69957EF2B366274B0F9C3AD8A78C2C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665DD175DB782455EBB6C87EAA1E1776 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,29 +37,36 @@
 
 /* Begin PBXFileReference section */
 		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		10F8BF2B20775590AE0D2AA0682EA15D /* RJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJExtension-prefix.pch"; sourceTree = "<group>"; };
 		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		233AD9DBE851D406231D36645F1334B1 /* RJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJExtension-dummy.m"; sourceTree = "<group>"; };
 		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		37C968A0557371BD0552A3356263F08A /* RJExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RJExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25D788FE505043A20208D9C1DB1C4EC0 /* RJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJExtension.h; path = RJExtension/RJExtension.h; sourceTree = "<group>"; };
 		39B4D7836FDEF423129D849C1EA4A326 /* RJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RJExtension.framework; path = RJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E3751079198F9A642ED23284EAAA14E /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = RJExtension/Common.swift; sourceTree = "<group>"; };
+		64611BC5FF535D498CAA748232EF1006 /* RJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJExtension-dummy.m"; sourceTree = "<group>"; };
+		665DD175DB782455EBB6C87EAA1E1776 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = RJExtension/UITableView.swift; sourceTree = "<group>"; };
+		6BA99D8CD9F1D534D16F0D2DA4E9F6E0 /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = RJExtension/UIAlertController.swift; sourceTree = "<group>"; };
+		6CDB4A7AE968EF66873D51CFFDE3D47A /* RJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJExtension.xcconfig; sourceTree = "<group>"; };
+		827D841BAF05CD202F4D3824D6C694AA /* RJExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RJExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82BEBB03642D07BA2B2DC0A9F19CB174 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = RJExtension/UICollectionView.swift; sourceTree = "<group>"; };
+		86E661B925CDE1B49FB3927DA9BD9012 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = RJExtension/UIDevice.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A3B539D43172F553A148BB5AC583775 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RJExtension/Info.plist; sourceTree = "<group>"; };
+		A0FEA80D1DF2C8E80C894D264B0C07AE /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = RJExtension/Common.swift; sourceTree = "<group>"; };
 		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A80AC9D0428CF990C1476D3ACCFD6084 /* RJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJExtension-umbrella.h"; sourceTree = "<group>"; };
+		AD0AA75A8C7F046700E52AE26D062C5E /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = RJExtension/UIViewController.swift; sourceTree = "<group>"; };
 		B05005266BF4239FA074D76EE52137F8 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF5D499BE5D824AFC43497112563700F /* RJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJExtension-prefix.pch"; sourceTree = "<group>"; };
-		D23EC51F9BECA0C5B57304F724A5608C /* RJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJExtension.xcconfig; sourceTree = "<group>"; };
-		D7A8C410E9F1EB82D889EAC6331D00AB /* RJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJExtension.modulemap; sourceTree = "<group>"; };
-		DC023C3BAC37BB51E442C86F13B66E48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RJExtension/Info.plist; sourceTree = "<group>"; };
-		E691331EB184B5DFA0B751308B9D23EA /* RJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJExtension-umbrella.h"; sourceTree = "<group>"; };
-		EF08566AD3438297413C694C0E9EF07C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F96E1A3AE45463A1F9B532E8ABC319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BF7F1001D4D9C0E0C95D8990C00692 /* RJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJExtension.modulemap; sourceTree = "<group>"; };
 		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB66BD121BB0EDFF6929A2BAD6939FAB /* RJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RJExtension.h; path = RJExtension/RJExtension.h; sourceTree = "<group>"; };
+		F11547565A5DB3D72A075FFC3CDE8395 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = RJExtension/UIColor.swift; sourceTree = "<group>"; };
+		FE4FB0D0F3E28CD500553F5225D6DEE6 /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = RJExtension/UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		059C38E21FE585800DB5CD03DB488A6A /* Pod */ = {
+		10C340D2E752E41A942AA1A834BA0D45 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37C968A0557371BD0552A3356263F08A /* RJExtension.podspec */,
+				C7F96E1A3AE45463A1F9B532E8ABC319 /* Info.plist */,
+				C9BF7F1001D4D9C0E0C95D8990C00692 /* RJExtension.modulemap */,
+				6CDB4A7AE968EF66873D51CFFDE3D47A /* RJExtension.xcconfig */,
+				64611BC5FF535D498CAA748232EF1006 /* RJExtension-dummy.m */,
+				10F8BF2B20775590AE0D2AA0682EA15D /* RJExtension-prefix.pch */,
+				A80AC9D0428CF990C1476D3ACCFD6084 /* RJExtension-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/RJExtension";
 			sourceTree = "<group>";
 		};
 		169D6B0F608180837151DD8F57422404 /* Products */ = {
@@ -110,17 +130,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		527E1A1D2F49EB340F670D3EC26515A5 /* RJExtension */ = {
+		52F4C8FFC8E575C1CE636CF5C262BD09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E3751079198F9A642ED23284EAAA14E /* Common.swift */,
-				DC023C3BAC37BB51E442C86F13B66E48 /* Info.plist */,
-				FB66BD121BB0EDFF6929A2BAD6939FAB /* RJExtension.h */,
-				059C38E21FE585800DB5CD03DB488A6A /* Pod */,
-				7E6EB8511A423023228AC5B360177C0F /* Support Files */,
+				980D8233DF45BF86CE7C46DC5E0410A1 /* RJExtension */,
 			);
-			name = RJExtension;
-			path = ../../RJExtension;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -143,25 +158,39 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C01B2CD55FE7257BE508DC71E25F0F43 /* Development Pods */,
+				52F4C8FFC8E575C1CE636CF5C262BD09 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				169D6B0F608180837151DD8F57422404 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E6EB8511A423023228AC5B360177C0F /* Support Files */ = {
+		980D8233DF45BF86CE7C46DC5E0410A1 /* RJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				EF08566AD3438297413C694C0E9EF07C /* Info.plist */,
-				D7A8C410E9F1EB82D889EAC6331D00AB /* RJExtension.modulemap */,
-				D23EC51F9BECA0C5B57304F724A5608C /* RJExtension.xcconfig */,
-				233AD9DBE851D406231D36645F1334B1 /* RJExtension-dummy.m */,
-				CF5D499BE5D824AFC43497112563700F /* RJExtension-prefix.pch */,
-				E691331EB184B5DFA0B751308B9D23EA /* RJExtension-umbrella.h */,
+				A0FEA80D1DF2C8E80C894D264B0C07AE /* Common.swift */,
+				9A3B539D43172F553A148BB5AC583775 /* Info.plist */,
+				25D788FE505043A20208D9C1DB1C4EC0 /* RJExtension.h */,
+				6BA99D8CD9F1D534D16F0D2DA4E9F6E0 /* UIAlertController.swift */,
+				82BEBB03642D07BA2B2DC0A9F19CB174 /* UICollectionView.swift */,
+				F11547565A5DB3D72A075FFC3CDE8395 /* UIColor.swift */,
+				86E661B925CDE1B49FB3927DA9BD9012 /* UIDevice.swift */,
+				665DD175DB782455EBB6C87EAA1E1776 /* UITableView.swift */,
+				FE4FB0D0F3E28CD500553F5225D6DEE6 /* UIView.swift */,
+				AD0AA75A8C7F046700E52AE26D062C5E /* UIViewController.swift */,
+				A1E85164E17614A4DF60BDD9D37C0F8B /* Pod */,
+				10C340D2E752E41A942AA1A834BA0D45 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/RJExtension";
+			name = RJExtension;
+			path = ../../RJExtension;
+			sourceTree = "<group>";
+		};
+		A1E85164E17614A4DF60BDD9D37C0F8B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				827D841BAF05CD202F4D3824D6C694AA /* RJExtension.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -170,14 +199,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C01B2CD55FE7257BE508DC71E25F0F43 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				527E1A1D2F49EB340F670D3EC26515A5 /* RJExtension */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31C79FC0D0A1314D1AA521ED83D433E /* Build configuration list for PBXNativeTarget "RJExtension" */;
 			buildPhases = (
-				5EE2DE75970238C516CDEED8FEC4795C /* Sources */,
+				64478B79426D4B6D66610D795AE7A0B3 /* Sources */,
 				39C03DA20B7C667EC8C97A102239E2C2 /* Frameworks */,
 				AF2C0BDE9BD392D06CD904A84489C8FC /* Headers */,
 			);
@@ -266,13 +287,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5EE2DE75970238C516CDEED8FEC4795C /* Sources */ = {
+		64478B79426D4B6D66610D795AE7A0B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EA4EB88D93967D56014DC4D481CFC0 /* Common.swift in Sources */,
-				C5AF663D3A99B974D9533393DEAB05C3 /* Info.plist in Sources */,
-				02389EA02EC7FF2FA8AA3EDB358F6CF9 /* RJExtension-dummy.m in Sources */,
+				33305C022DE6AA801B6AD8039F2BBAFD /* Common.swift in Sources */,
+				802EA65DA4B5A511E2182AB6FC1AF875 /* Info.plist in Sources */,
+				917A92B9EB0F5C847F8C7F0B5F8610EB /* RJExtension-dummy.m in Sources */,
+				9D6CAB231E89473C026B4B2E076FD3B7 /* UIAlertController.swift in Sources */,
+				89251D52D0D816CA024D2E3B9B45B9F2 /* UICollectionView.swift in Sources */,
+				A8F485FBAC5BEAC9B528AF37DCA90264 /* UIColor.swift in Sources */,
+				13852F390120DD6981B662A5609E3786 /* UIDevice.swift in Sources */,
+				FA69957EF2B366274B0F9C3AD8A78C2C /* UITableView.swift in Sources */,
+				D06A00E097118792FB8AD27AB55B516E /* UIView.swift in Sources */,
+				DDCBAE8AB8C796BB7BD20A2B65DEC79D /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +326,7 @@
 /* Begin XCBuildConfiguration section */
 		2565A245EF23277146725E37BD2E251E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23EC51F9BECA0C5B57304F724A5608C /* RJExtension.xcconfig */;
+			baseConfigurationReference = 6CDB4A7AE968EF66873D51CFFDE3D47A /* RJExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -495,7 +523,7 @@
 		};
 		F64576B00A058E92DC239363D9C53A68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23EC51F9BECA0C5B57304F724A5608C /* RJExtension.xcconfig */;
+			baseConfigurationReference = 6CDB4A7AE968EF66873D51CFFDE3D47A /* RJExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
