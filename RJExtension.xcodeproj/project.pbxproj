@@ -11,7 +11,7 @@
 		5675023B21146A880005D750 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023A21146A880005D750 /* UICollectionView.swift */; };
 		5675023D21146A9A0005D750 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023C21146A9A0005D750 /* UIColor.swift */; };
 		5675023F21146B000005D750 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023E21146B000005D750 /* UIView.swift */; };
-		5697EC9721195F4400E06355 /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DB231F0821189066006E7EC1 /* RJExtension.h */; };
+		5697EC9721195F4400E06355 /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DB231F0821189066006E7EC1 /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB231F032118869C006E7EC1 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB231F022118869C006E7EC1 /* UIDevice.swift */; };
 		DB231F052118890A006E7EC1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB231F042118890A006E7EC1 /* UIViewController.swift */; };
 		DB231F07211889A4006E7EC1 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB231F06211889A4006E7EC1 /* UIAlertController.swift */; };
@@ -283,7 +283,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -345,7 +345,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leejaejin.RJExtension;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
