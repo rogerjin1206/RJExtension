@@ -9,27 +9,27 @@
 import Foundation
 import UIKit
 
-class BasicCollectionViewCell : UICollectionViewCell {
+open class BasicCollectionViewCell : UICollectionViewCell {
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         initial()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         fatalError("init(coder:) has not been implemented")
     }
     
     
-    public func initial() {
+    open func initial() {
         
     }
     
 }
 
-extension UICollectionView {
+public extension UICollectionView {
     
     public func registerCell<T:UICollectionViewCell>(ofType type: T.Type) {
         register(T.self, forCellWithReuseIdentifier: T.className)

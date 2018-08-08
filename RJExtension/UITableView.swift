@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
-class BasicTableViewCell : UITableViewCell {
+
+// 베이직 테이블뷰 모델 클래스
+open class BasicTableViewCell : UITableViewCell {
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override public init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         selectionStyle = .none
@@ -19,12 +21,12 @@ class BasicTableViewCell : UITableViewCell {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func initial() {
+    open func initial() {
         
     }
     
@@ -32,8 +34,6 @@ class BasicTableViewCell : UITableViewCell {
 
 extension UITableView {
     
-    
-        
     public func registerCell<T: UITableViewCell>(ofType type: T.Type) {
         register(T.self, forCellReuseIdentifier: T.className)
         

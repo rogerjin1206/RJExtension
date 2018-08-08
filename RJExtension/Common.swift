@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// 해당 클래스 이름 가져오기
 public protocol ClassNameProtocol {
     static var className: String { get }
     var className: String { get }

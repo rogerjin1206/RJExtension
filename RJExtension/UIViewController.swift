@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-extension UIViewController {
+public extension UIViewController {
     
     public func checkDeinit() {
         
