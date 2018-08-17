@@ -13,6 +13,7 @@
 		5675023D21146A9A0005D750 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023C21146A9A0005D750 /* UIColor.swift */; };
 		5675023F21146B000005D750 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023E21146B000005D750 /* UIView.swift */; };
 		5697EC9721195F4400E06355 /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DB231F0821189066006E7EC1 /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DF668C2126B8CA00E1FB17 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF668B2126B8CA00E1FB17 /* Date.swift */; };
 		DB231F052118890A006E7EC1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB231F042118890A006E7EC1 /* UIViewController.swift */; };
 		DBB79B1020CD053F00D77F79 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB79B0F20CD053F00D77F79 /* Common.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,7 @@
 		5675023A21146A880005D750 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		5675023C21146A9A0005D750 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5675023E21146B000005D750 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		56DF668B2126B8CA00E1FB17 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DB231F042118890A006E7EC1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		DB231F0821189066006E7EC1 /* RJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJExtension.h; sourceTree = "<group>"; };
 		DBB79B0420CD052E00D77F79 /* RJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				DB231F0821189066006E7EC1 /* RJExtension.h */,
 				DBB79B0F20CD053F00D77F79 /* Common.swift */,
 				5675023821146A800005D750 /* UITableView.swift */,
+				56DF668B2126B8CA00E1FB17 /* Date.swift */,
 				DB231F042118890A006E7EC1 /* UIViewController.swift */,
 				560C52E9211AB32800349193 /* UIAlertController.swift */,
 				5675023A21146A880005D750 /* UICollectionView.swift */,
@@ -155,6 +158,7 @@
 				DB231F052118890A006E7EC1 /* UIViewController.swift in Sources */,
 				5675023F21146B000005D750 /* UIView.swift in Sources */,
 				5675023B21146A880005D750 /* UICollectionView.swift in Sources */,
+				56DF668C2126B8CA00E1FB17 /* Date.swift in Sources */,
 				560C52EA211AB32800349193 /* UIAlertController.swift in Sources */,
 				5675023D21146A9A0005D750 /* UIColor.swift in Sources */,
 				DBB79B1020CD053F00D77F79 /* Common.swift in Sources */,
