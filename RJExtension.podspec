@@ -10,5 +10,6 @@ s.author       = { "LEEJAEJIN" => "jinlee1206@naver.com" }
 s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/jinlee1206/RJExtension.git", :tag => "1.0.6" }
 s.source_files  = "RJExtension/**/*"
+s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.1" }
 
 end
