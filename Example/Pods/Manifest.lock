@@ -1,5 +1,5 @@
 PODS:
-  - RJExtension (1.0.4)
+  - RJExtension (1.0.6)
 
 DEPENDENCIES:
   - RJExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RJExtension: 640e343e1ca30e0e2d38009cbabac40ce672dc4a
+  RJExtension: a6e1393afd6961026da7d2ad586b4183c657908d
 
 PODFILE CHECKSUM: 20f5dea9899b5b903b55b338234f938fe73b174b
 
