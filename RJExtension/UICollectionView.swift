@@ -43,7 +43,7 @@ public extension UICollectionView {
     
     public func dequeueReusableView<T: UICollectionReusableView>(with type: T.Type,
                                                                  for indexPath: IndexPath,
-                                                                 ofKind kind: String = UICollectionElementKindSectionHeader) -> T {
+                                                                 ofKind kind: String = UICollectionView.elementKindSectionHeader) -> T {
         
         return dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: type.className, for: indexPath) as! T
     }

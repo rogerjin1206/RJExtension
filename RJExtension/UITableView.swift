@@ -13,7 +13,7 @@ import UIKit
 // 베이직 테이블뷰 모델 클래스
 open class BasicTableViewCell : UITableViewCell {
     
-    override public init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         selectionStyle = .none

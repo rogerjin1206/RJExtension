@@ -12,6 +12,7 @@
 		5675023B21146A880005D750 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023A21146A880005D750 /* UICollectionView.swift */; };
 		5675023D21146A9A0005D750 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023C21146A9A0005D750 /* UIColor.swift */; };
 		5675023F21146B000005D750 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675023E21146B000005D750 /* UIView.swift */; };
+		568A95522186AE5A000EBE81 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A95512186AE5A000EBE81 /* String.swift */; };
 		5697EC9721195F4400E06355 /* RJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DB231F0821189066006E7EC1 /* RJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56DF668C2126B8CA00E1FB17 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF668B2126B8CA00E1FB17 /* Date.swift */; };
 		DB231F052118890A006E7EC1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB231F042118890A006E7EC1 /* UIViewController.swift */; };
@@ -24,6 +25,7 @@
 		5675023A21146A880005D750 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		5675023C21146A9A0005D750 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5675023E21146B000005D750 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		568A95512186AE5A000EBE81 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		56DF668B2126B8CA00E1FB17 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DB231F042118890A006E7EC1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		DB231F0821189066006E7EC1 /* RJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJExtension.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				5675023821146A800005D750 /* UITableView.swift */,
 				56DF668B2126B8CA00E1FB17 /* Date.swift */,
 				DB231F042118890A006E7EC1 /* UIViewController.swift */,
+				568A95512186AE5A000EBE81 /* String.swift */,
 				560C52E9211AB32800349193 /* UIAlertController.swift */,
 				5675023A21146A880005D750 /* UICollectionView.swift */,
 				5675023C21146A9A0005D750 /* UIColor.swift */,
@@ -114,7 +117,7 @@
 		DBB79AFB20CD052E00D77F79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = LEEJAEJIN;
 				TargetAttributes = {
 					DBB79B0320CD052E00D77F79 = {
@@ -158,6 +161,7 @@
 				DB231F052118890A006E7EC1 /* UIViewController.swift in Sources */,
 				5675023F21146B000005D750 /* UIView.swift in Sources */,
 				5675023B21146A880005D750 /* UICollectionView.swift in Sources */,
+				568A95522186AE5A000EBE81 /* String.swift in Sources */,
 				56DF668C2126B8CA00E1FB17 /* Date.swift in Sources */,
 				560C52EA211AB32800349193 /* UIAlertController.swift in Sources */,
 				5675023D21146A9A0005D750 /* UIColor.swift in Sources */,
@@ -173,7 +177,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -222,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +241,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -281,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
@@ -319,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -349,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leejaejin.RJExtension;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
